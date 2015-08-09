@@ -5,3 +5,4 @@ GAP <- as.numeric(rightDays$Global_active_power)
 png("plot1.png", width=480, height=480)
 hist(GAP, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)", breaks = 12)
 dev.off()
+
